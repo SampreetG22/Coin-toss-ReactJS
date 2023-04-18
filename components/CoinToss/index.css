@@ -1,0 +1,48 @@
+.mainContainer {
+  background-image: linear-gradient(#e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: white;
+  color: #a35200;
+  padding: 20px;
+  border-radius: 10px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.resultsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  width: 100%;
+}
+.tossImage {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.BtnCSS {
+  background-color: #f9d423;
+  padding: 10px;
+  width: max-content;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  color: black;
+}
+.listEl {
+  font-size: 13px;
+  color: black;
+  font-weight: 500;
+}
